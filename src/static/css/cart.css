@@ -1,0 +1,66 @@
+.cart-container{
+    
+    
+    display: flex;
+    
+    
+    
+}
+
+.cart-game-card{
+    background: rgba(87, 1, 1, 0.137);
+    max-width: 100%;
+    padding: 2rem;
+    padding-left: 3rem;
+    margin: .25rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cart-game-title{
+    padding: .25rem ;
+    
+   
+}
+
+.cart-game-price{
+    padding: .25rem ;
+    
+}
+
+.cart-game-image{
+    object-fit: cover;
+    max-width: 12%;
+    flex: 20%;
+    aspect-ratio: 1 / 1;
+}
+
+.cart-game-information{
+    
+    padding-left: 2rem;
+}
+
+.cart-game{
+    
+    display: flex;
+    flex: 60%;
+    padding-top: 2rem;
+    flex-flow:  column;
+    justify-content: center;
+    
+    
+    
+}
+
+.cart-order-information{
+    color: white;
+    display: flex;
+    flex: 40%;
+    flex-flow:  column;
+    padding-top: 3rem;
+    
+    
+    background: rgba(87, 1, 1, 0.137);
+}

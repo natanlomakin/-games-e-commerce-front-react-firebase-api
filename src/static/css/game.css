@@ -1,0 +1,111 @@
+
+
+.game-container{
+    max-width: 100rem;
+    margin-inline: auto;
+    padding-inline: 2rem;
+    display: flex;
+   
+    
+}
+
+.game-images{
+    
+    display: flex;
+    flex: 70%;
+    padding: 3rem;
+    gap: 2rem 2rem;
+    flex-flow:  column;
+    justify-content: center;
+}
+
+.game-feature-image{
+    
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 2%;
+    
+}
+
+.game-details >*{
+    
+    padding: .5rem;
+    color: white;
+}
+
+.game-information{
+    display: flex;
+    flex: 30%;
+    flex-flow:  column;
+    padding-top: 2rem;
+}
+
+.game-specs{
+    flex-flow: row;
+}
+
+.game-specs >*{
+
+    padding: .5rem;
+    color: white;
+    
+    
+}
+
+.game-caruosel{
+    
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 20%;
+    align-items: baseline;
+    
+    gap: .25rem ;
+    
+}
+.game-cart-button-block{
+    pointer-events: none;
+    color: black;
+}
+
+.game-cart-button:hover{
+    background-color: #50030f ;
+}
+
+.game-wishlist-button-block{
+    pointer-events: none;
+    color: black;
+}
+
+.game-wishlist-button:hover{
+    background-color: #50030f ;
+}
+
+
+.game-caruosel-images{
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 2%;
+    
+}
+
+.game-caruosel-images:hover{
+    border-color: #ea1538;
+    border-style: double;
+}
+
+@media (max-width: 800px) {
+    .game-images {
+      flex: 100%;
+      padding: 1rem;
+    }
+    .game-information{
+        flex: 100%;
+    }
+    .game-container{
+        flex-flow: column;
+    }
+    .game-information{
+        padding-top: 0;
+    }
+}

@@ -1,0 +1,31 @@
+.register-form-container{
+    color: white;
+    justify-content: center;
+    display: flex;
+    padding-top: 5rem;
+}
+
+.register-info{
+    padding: 3rem;
+    border-style: solid;
+    border-style: ridge;
+    border-color: #ea1538;
+}
+
+.register-info form > *{
+    padding: 1rem;
+}
+
+input{
+    background-color: white;
+    height: 2rem;
+    font-size: large;
+    font-weight: bolder;
+    color: #ea1538;
+}
+
+@media (max-width: 800px) {
+    .register-info form > *{
+        padding: .5rem;
+    }
+}

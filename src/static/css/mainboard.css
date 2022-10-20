@@ -1,0 +1,78 @@
+.card__img{
+    max-width: 100%;
+    display: block;
+    border-radius: 2%;
+    
+}
+
+.mainBoardContainer{
+    max-width: 100rem;
+    margin-inline: auto;
+    padding-inline: 2rem;
+    
+}
+
+.stacked{
+    display: grid;
+    
+}
+
+.stacked > * {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    
+}
+
+.games-grid{
+    display: grid;
+    gap: .25rem .25rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    
+}
+
+.card{
+    aspect-ratio: 1 / 1;
+    padding: .25rem;
+    
+}
+
+.card__content{
+    background: white;
+    align-self: end;
+    margin: .5rem .5rem 2rem;
+    padding: .5rem;
+    box-shadow: 0 .25rem 1rem rgb(0, 0, 0 / .1);
+    border-radius: 4px;
+}
+
+.card__title{
+    color: #ea1538;
+    padding: .1rem ;
+    text-align: center;
+}
+
+.card__price{
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+}
+
+.card__img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.card:hover .card__title {
+    color:white;
+    
+}
+
+.card:hover .card__content{
+    background: #ea1538;
+}
+
